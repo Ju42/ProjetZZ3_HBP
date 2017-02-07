@@ -1,0 +1,49 @@
+        Network Specification
+ =====================
+
+Generated: Thu Dec  8 13:10:30 2016 for target machine 'virtual'
+
+*** Vertices:
+Vertex Population 0, size: 1
+Model: IFCondExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+
+Vertex Population 1, size: 1
+Model: SpikeSourceArray
+constraint: PartitionerMaximumSizeConstraint(size=2147483647)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=Population 1_delayed)
+
+Vertex Population 2, size: 1
+Model: SpikeSourceArray
+constraint: PartitionerMaximumSizeConstraint(size=2147483647)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=Population 2_delayed)
+
+Vertex Population 1_delayed, size: 1
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=Population 1)
+
+Vertex Population 2_delayed, size: 1
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=Population 2)
+
+*** Edges:
+Edge Population 1_delayed_to_Population 0 from vertex: 'Population 1_delayed' (1 atoms) to vertex: 'Population 0' (1 atoms)
+  Model: No Model
+
+Edge Population 2_delayed_to_Population 0 from vertex: 'Population 2_delayed' (1 atoms) to vertex: 'Population 0' (1 atoms)
+  Model: No Model
+
+Edge Projection 1 from vertex: 'Population 2' (1 atoms) to vertex: 'Population 0' (1 atoms)
+  Model: No Model
+
+Edge Population 2_to_DelayExtension from vertex: 'Population 2' (1 atoms) to vertex: 'Population 2_delayed' (1 atoms)
+  Model: No Model
+
+Edge Projection 0 from vertex: 'Population 1' (1 atoms) to vertex: 'Population 0' (1 atoms)
+  Model: No Model
+
+Edge Population 1_to_DelayExtension from vertex: 'Population 1' (1 atoms) to vertex: 'Population 1_delayed' (1 atoms)
+  Model: No Model
+

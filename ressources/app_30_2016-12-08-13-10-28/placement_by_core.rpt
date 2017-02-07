@@ -1,0 +1,32 @@
+        Placement Information by Core
+        =============================
+
+Generated: Thu Dec  8 13:10:30 2016 for target machine 'virtual'
+
+**** Chip: (0, 0)
+Application cores: 15
+  Processor 1: Vertex: 'Population 0', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: IFCondExp
+
+
+  Processor 2: Vertex: 'Population 2_delayed', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 3: Vertex: 'Population 1_delayed', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 4: Vertex: 'Population 1', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: SpikeSourceArray
+
+
+  Processor 5: Vertex: 'Population 2', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: SpikeSourceArray
+
+

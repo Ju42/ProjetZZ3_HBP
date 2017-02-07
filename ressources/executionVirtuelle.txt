@@ -1,0 +1,106 @@
+manon@manon-AO751h:~/Téléchargements/PyNNExamples-3.0.0/examples$ python if_cond_exp.py spiNNaker
+
+2016-12-05 12:42:27 INFO: Read config files: /home/manon/.spynnaker.cfg, /usr/local/lib/python2.7/dist-packages/spynnaker/spynnaker.cfg
+2016-12-05 12:42:27 INFO: sPyNNaker (c) 2016 APT Group, University of Manchester
+2016-12-05 12:42:27 INFO: Release version 3.0.0() - September 2016. Installed in folder /usr/local/lib/python2.7/dist-packages
+2016-12-05 12:42:27 INFO: Will search these locations for binaries: /usr/local/lib/python2.7/dist-packages/spinn_front_end_common/common_model_binaries : /usr/local/lib/python2.7/dist-packages/spynnaker/pyNN/model_binaries
+2016-12-05 12:42:27 INFO: Setting appID to 30.
+2016-12-05 12:42:27 WARNING: A timestep was entered that has forced sPyNNaker to automatically slow the simulation down from real time by a factor of 10.0. To remove this automatic behaviour, please enter a timescaleFactor value in your .spynnaker.cfg
+2016-12-05 12:42:27 INFO: Setting time scale factor to 10.0.
+2016-12-05 12:42:27 INFO: Setting machine time step to 100.0 micro-seconds.
+2016-12-05 12:42:27 INFO: Starting execution process
+Generating a virtual machine
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.021484 taken by FrontEndCommonVirtualMachineGenerator
+Allocating virtual identifiers
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.005684 taken by MallocBasedChipIDAllocator
+2016-12-05 12:42:29 INFO: Time 0:00:00.002408 taken by FrontEndCommonApplicationGraphNetworkSpecificationReport
+Partitioning graph vertices
+|0                           50%                         100%|
+ ============================================================
+Partitioning graph edges
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.067178 taken by PartitionAndPlacePartitioner
+Generating partitioner report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.005318 taken by PartitionerReport
+Filtering edges
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.019983 taken by GraphEdgeFilter
+Placing graph vertices
+|0                           50%                         100%|
+ ====================================================================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.020398 taken by OneToOnePlacer
+Generating placement report
+|0                           50%                         100%|
+ ============================================================
+Generating placement by core report
+|0                           50%                         100%|
+ ============================================================
+Generating SDRAM usage report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.019855 taken by PlacerReportWithApplicationGraph
+Routing
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.016719 taken by RigRoute
+Allocating tags
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.008183 taken by BasicTagAllocator
+Reporting Tags
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.003865 taken by TagReport
+Getting the number of keys required by each edge using theapplication graph
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.008335 taken by FrontEndCommonEdgeToNKeysMapper
+Allocating routing keys
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.087309 taken by MallocBasedRoutingInfoAllocator
+Generating Routing info report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.018834 taken by routingInfoReports
+Generating routing tables
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.010666 taken by BasicRoutingTableGenerator
+Generating Router table report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.009390 taken by unCompressedRoutingTableReports
+Compressing routing Tables
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.015348 taken by MundyRouterCompressor
+Generating compressed router table report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.014040 taken by compressedRoutingTableReports
+Generating comparison of router table report
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:29 INFO: Time 0:00:00.013949 taken by comparisonOfRoutingTablesReport
+Generating sPyNNaker data specifications
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:30 INFO: Time 0:00:00.192011 taken by SpynnakerDataSpecificationWriter
+2016-12-05 12:42:30 INFO: Running for 1 steps for a total of 200.0 ms
+2016-12-05 12:42:30 INFO: Run 1 of 1
+Initialising buffers
+|0                           50%                         100%|
+ ============================================================
+2016-12-05 12:42:30 INFO: Time 0:00:00.048401 taken by FrontEndCommonBufferManagerCreator
+2016-12-05 12:42:30 INFO: Time 0:00:00.006621 taken by FrontEndCommonDatabaseInterface
+2016-12-05 12:42:30 WARNING: The simulation is using a virtual machine and so has not truly ran, hence the list will be empty
+2016-12-05 12:42:30 WARNING: The simulation is using a virtual machine and so has not truly ran, hence the list will be empty

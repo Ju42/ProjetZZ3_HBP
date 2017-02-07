@@ -1,0 +1,35 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Thu Dec  8 13:10:30 2016 for target machine 'virtual'
+
+**** Vertex: 'Population 0'
+Model: IFCondExp
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'Population 1'
+Model: SpikeSourceArray
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'Population 1_delayed'
+Model: DelayExtensionVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'Population 2'
+Model: SpikeSourceArray
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'Population 2_delayed'
+Model: DelayExtensionVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+

@@ -1,0 +1,18 @@
+Vertex: <spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987cac> 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987cac>:Population 0:0:0, keys_and_masks:[KeyAndMask:0x4L:0xffffffffL] 
+edge:SimpleMachineEdge(pre_vertex=<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987cac>, post_vertex=Population 1_delayed:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forPopulation 1_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x4L:0xffffffffL] 
+
+
+Vertex: Population 1_delayed:0:0 
+edge:SimpleMachineEdge(pre_vertex=Population 1_delayed:0:0, post_vertex=Population 0:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forPopulation 1_delayed_to_Population 0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x0L:0xffffffffL] 
+
+
+Vertex: <spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987e4c> 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987e4c>:Population 0:0:0, keys_and_masks:[KeyAndMask:0x1L:0xffffffffL] 
+edge:SimpleMachineEdge(pre_vertex=<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0xa987e4c>, post_vertex=Population 2_delayed:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forPopulation 2_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1L:0xffffffffL] 
+
+
+Vertex: Population 2_delayed:0:0 
+edge:SimpleMachineEdge(pre_vertex=Population 2_delayed:0:0, post_vertex=Population 0:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forPopulation 2_delayed_to_Population 0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2L:0xfffffffeL] 
+
+
