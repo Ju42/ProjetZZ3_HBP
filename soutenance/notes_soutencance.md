@@ -10,20 +10,20 @@ les autres neurones.
 
 la synapse est le vecteur de la communication nerveuse. Elle relie les
 terminaisons nerveuses d'un neurone aux dendrites de plusieurs autres
-neurones. Les signaux arrive sous forme électrique à la synapse puis sont
-convertis en message chimique, l'autre partie de la synapse reconvertie ses
-messages chimique en signaux électrique pour parcouri la dendrite vers le
-second neurone sous forme d'influ nerveux.
+neurones. Les signaux arrivent sous forme électrique à la synapse puis sont
+convertis en message chimique. L'autre partie de la synapse reconvertie ces
+messages chimiques en signaux électrique pour parcourir la dendrite vers le
+second neurone sous forme d'influx nerveux.
 
-Les synapses sont mobile dans le sens où les liaison entre neurones changent au
+Les synapses sont mobile dans le sens où les liaisons entre neurones changent au
 cours du temps
 
 # Le réseaux
 
-Pour en revenir au réseau de neurone le plus connus du monde, le cerveau humain
+Pour en revenir au réseau de neurones le plus connus du monde, le cerveau humain
 se compose de 86 à 100 milliards de neurones
 
 chaque neurone y est à connecté à entre 1 et 100 000 synapse avec une moyenne de
 10 000 synapses par neurone.
 
-Par ailleurs chaque neurone est à environ 5 synapse de tout autres neurones.
+Par ailleurs chaque neurone est à environ 5 synapses de tout autres neurones.
